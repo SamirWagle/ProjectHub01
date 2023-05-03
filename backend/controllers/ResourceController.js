@@ -66,21 +66,22 @@ const ViewResource=async (req, res) => {
             and $poject to get just the necessary document
             $unwind creates seperate document for each  element in array
             $project creates document with just name ,details and createdAt
-
             Reminder again with aggregation we needd $ before fieldname
             */
-
             const list= await Resource.aggregate([
                 {$unwind:"$list"}, 
                 {$project:{
                     _id:0,
                     title:"$list.name",
                     link:"$list.detail",
+                    uploadedBy:"$list.uploadedby",
                     createdAt:"$list.createdAt"
                     }
                 },
                 {$sort:{createdAt:-1}}
             ])
+            console.log(2)
+            console.log(list)
             res.status(200).json(list)
             }
         }
