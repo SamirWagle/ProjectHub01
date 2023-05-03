@@ -84,7 +84,7 @@ const ViewResource=async (req, res) => {
             console.log(list)
             res.status(200).json(list)
             }
-        }
+        }   
     }catch(error){
         res.status(400).json({error:error.message})
     }
