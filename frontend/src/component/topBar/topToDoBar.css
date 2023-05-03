@@ -1,0 +1,54 @@
+.topProgessBar {
+  display: flex;
+  background-color: white;
+  box-shadow: 10px 5px 5px whitesmoke;
+  height: 60px;
+  padding-left: 30px;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+h2{
+margin-top: 0px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+.avatars {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+  padding: 0px;
+  flex-direction: row;
+}
+
+.avatarItems {
+  background-color: antiquewhite;
+  font-weight: 100;
+  color: black;
+  transition: z-index 0.1s ease-in-out;
+  box-shadow: 0px 5px 5px rgb(106, 103, 103);
+  margin-left: -10px;
+}
+.avatarItems:first-child {
+  z-index: 5;
+}
+.avatarItems:nth-child(2) {
+  z-index: 4;
+}
+.avatarItems:nth-child(3) {
+  z-index: 3;
+}
+.avatarItems:nth-child(4) {
+  z-index: 2;
+}
+.avatarItems:nth-child(5) {
+  z-index: 1;
+}
+.avatarItems:last-child {
+  z-index: 0;
+}
+.avatars__item:hover {
+  margin-right: 100px;
+  z-index:7;
+}

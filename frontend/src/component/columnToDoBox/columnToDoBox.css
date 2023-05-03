@@ -1,0 +1,193 @@
+.columnProgessBox {
+  margin-top: 20px;
+  background-color: #f3f4f8;
+  height: fit-content;
+  width: 250px;
+  margin-left: 50px;
+}
+.title {
+  max-width: 100%;
+  height: 54px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+  justify-content: space-between;
+}
+h5 {
+  text-align: left;
+  font-family: "DM Sans";
+  font-size: 25px;
+  line-height: 22px;
+  color: #232360;
+}
+.addIcon {
+  width: 24px;
+  height: 24px;
+  color: #6772fe;
+  background-color: #c7cafb;
+  border-radius: 25%;
+}
+.content {
+  border-radius: 20px;
+  max-width: 100%;
+  display: flex;    flex-direction: column;
+  justify-content: space-around;
+  height: fit-content;
+  /* padding-bottom: 30px 20px; */
+  margin-top: 30px ;
+  margin-bottom: 30px;
+  background-color: white;
+  padding:20px 20px 60px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.columnProgessBox :hover{
+  box-shadow: 5px 5px 10px rgba(31, 10, 10, 0.2);
+}
+.content .label {
+  width: fit-content;
+  padding: 0px 5px 10px 5px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  /* line-height: 10px; */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #1ea7ff;
+}
+.projectTitle {
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-size: 20px;
+  height: 17px;
+  line-height: 17px;
+  margin-top: 20px;
+  color: #232360;
+  margin-bottom: 10px;
+}
+
+.projectSubTitle {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin: 10px;
+  height: 50px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #768396;
+}
+.datebox {
+  border: 2px solid #e2e2e2;
+  width: fit-content;
+  border-radius: 4px;
+  padding: 0 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+.dropDownButton {
+  width: fit-content;
+  flex-wrap: wrap;
+  padding: 0 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-content: center;
+}
+.date_DropDown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.menu-trigger {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  color: #030000;
+  display: flex;
+  align-items: center;
+  /* background-color: #320b0b; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 10px;
+  background-color: #745555;
+  border-radius: 8px;
+  padding: 5px 5px;
+  width: fit-content;
+}
+
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  background:  #745555;
+  transform: rotate(45deg);
+}
+
+.dropdown-menu.active {
+  z-index: 9;
+  /* height: 300px; */
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 500ms;
+}
+
+.dropdown-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 500ms;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+
+.dropdown-menu ul li {
+  padding: 1px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-menu ul li:hover a {
+  color: rgb(212, 33, 9);
+  cursor: pointer;
+}
+
+.dropdownItem {
+  display: flex;
+  margin: 10px auto;
+}
+
+
+.dropdownItem a {
+  max-width: 100px;
+  margin-left: 10px;
+  transition: --500ms;
+}

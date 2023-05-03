@@ -1,0 +1,10 @@
+.deadlinedatebox{
+    border:2px solid #E2E2E2  ; 
+    width:fit-content;
+    border-radius: 4px;
+    padding:0 5px ;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 5px;
+  
+  }
+  

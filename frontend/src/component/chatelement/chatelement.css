@@ -1,0 +1,18 @@
+.chatby{
+    font-size:15px;
+    margin-left:10px;
+}
+
+.chatmessege{
+    background-color:#afafaf;
+    border:1px solid #000;
+    border-radius: 50px 50px 50px 0;
+    width: fit-content;
+    font-size: 20px;
+    margin-left: 15px;
+    padding:10px 15px 10px 15px;
+}
+
+.chatelements{
+    margin-top:15px;
+}

@@ -1,0 +1,8 @@
+.ProjectPage{
+    background-color: #bef0ff;
+}
+
+.ProjectPageBlocks{
+    display: flex;
+    flex-wrap: wrap;
+}

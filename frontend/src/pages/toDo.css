@@ -1,0 +1,17 @@
+.progressContainer {
+  display: flex;
+  background-color: #f3f4f8;
+}
+.leftCointainer {
+  width: 85%;
+  background-color: #f3f4f8;
+}
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.rightCointainer {
+  width: 15%;
+  background-color: #f3f4f8;
+}

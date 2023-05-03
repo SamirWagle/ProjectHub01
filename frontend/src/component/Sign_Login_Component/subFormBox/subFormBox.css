@@ -1,0 +1,19 @@
+/* .bottomContainer {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5%;
+  width: 250px;
+  height: 95%;
+  width: 400px;
+   background:
+          radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(146,163,184,1) 100%); 
+  background-color: white;
+  border-radius: 88px;
+} */
+.Logo_image {
+
+  margin-top: 10px;
+  width: 50%;
+  height: 60px;
+}

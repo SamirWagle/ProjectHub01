@@ -1,0 +1,90 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+.dropDownSelectorContainer {
+  width: 72px;
+  font-size: medium;
+  height: 8px;
+}
+
+.selector-wrapper {
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  /* width: 18rem; */
+  font-family: sans-serif;
+}
+
+.selector-header {
+  color: #000000;
+  padding-left: 10px;
+  width: 95%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+
+  /* padding: 0.5rem 1rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+
+.selector-header:hover {
+  background-color: #6ca0c2;
+}
+
+.selector-header.selected {
+  background-color: transparent;
+  /* #1c64f2; */
+  color: #9f8484;
+}
+
+.selector-header.selected:hover {
+  background-color: #6cc8c8;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.selector-list {
+  border-radius: 30px;
+
+  background-color: #aad5d5e5;
+  margin-top: 0.5rem;
+  overflow-y: auto;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  z-index: 99;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.selector-list li {
+  border-radius: 5px;
+  padding: 5px 5px 0 15px;
+  margin: 10px;
+}
+.selector-list li:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.5);
+  margin: 10px;
+  background-color:  #6cc8c8;
+}
+.selector-list li hr {
+  background-color: #6ca0c2;
+  width: 90%;
+  border: 1px solid #734646;
+  margin: 10px;
+}
+
+.selector-list.open {
+  border: 1px solid black;
+  max-height: 15rem;
+  transition: max-height 0.2s ease;
+}

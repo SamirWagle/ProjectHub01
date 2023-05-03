@@ -1,0 +1,22 @@
+.projectListCardsBox{
+    margin: 2%;
+    padding:2%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* width:15%; */
+    width: fit-content;
+}
+.projectListCardsBox h5{
+    margin:0;
+}
+.projectProfilePic{
+    height: 150px;
+    width:200px;
+    background-color: blueviolet;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+.projectListCardsBox:hover{
+   
+    box-shadow: 5px 5px 10px rgba(31, 5, 5, 0.2);
+}

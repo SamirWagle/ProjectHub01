@@ -1,0 +1,63 @@
+.dashboardCardsBox{
+    max-width: 203px;
+    margin: 2%;
+    padding:2%;
+    overflow: ellipsis;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* width:15%; */
+    width: fit-content;
+}
+.dashboardCardsBox h5{
+    margin:0;
+}
+.projectProfilePic{
+    height: 150px;
+    width:200px;
+    background-color: blueviolet;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+.dashboardCardsBox:hover{
+   
+    box-shadow: 5px 5px 10px rgba(31, 5, 5, 0.2);
+}
+.completed_togglebutton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: hsl(36deg 6.19% 61.39%);
+}
+.toggle-button {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #e6e6e6;
+    transition: background-color 0.2s ease;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .toggle-button.active {
+    background-color: #3f51b5;
+  }
+  
+  .toggle-button__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+    transform: translateX(0);
+  }
+  
+  .toggle-button.active .toggle-button__inner {
+    transform: translateX(25px);
+  }
+  

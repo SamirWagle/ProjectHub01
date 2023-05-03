@@ -1,0 +1,11 @@
+.skillbox{
+    background-color: #ffffff;
+    border:0.5px solid #000;
+    border-radius: 10px;
+    height:35px;
+    padding-left:22px;
+    padding-right: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    margin:10px;
+}

@@ -1,0 +1,32 @@
+.dashboardTopbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #afafaf;
+    height:70px ;
+}
+.TopbarLogo{
+    height:60px ;
+}
+
+.dashboardTopbar h1{
+    padding: 15px;
+    background-color: #afafaf;
+}
+
+.dashboardEndbutton{
+    width: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #afafaf;
+    margin-right: 20px;
+}
+.dashboardEndbutton *{
+margin: 0px 10px;
+}
+
+.dashboardEndbutton p{
+    padding-right: 35px;
+ background-color: #afafaf;
+}

@@ -1,0 +1,45 @@
+.inputFieldBox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.loginForm{
+    margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 5%;
+        width: 250px;
+        height: 95%;
+        width: 400px;
+      
+        background:
+          radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(146,163,184,1) 100%);
+        border-radius: 88px;
+        padding-bottom: 10px;
+
+}
+h1,
+h2 {
+  margin-top: 0px;
+}
+h4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: black;
+  border-radius: 20px;
+}
+.buttonList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.buttonLog {
+  color: #000;
+}
+.Logo_image {
+
+  margin-top: 10px;
+  width: 50%;
+  height: 60px;
+}

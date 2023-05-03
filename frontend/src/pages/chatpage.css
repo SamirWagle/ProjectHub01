@@ -1,0 +1,38 @@
+.chatpage {
+    background-color: #bef0ff;
+}
+.Chat_Division{
+    display: flex;
+}
+.ChatSection{
+    width: 80%;
+}
+
+.chattitle {
+    margin: 2%;
+}
+
+#chatdivider {
+    border: 1px solid #000;
+    width: 1300px;
+    margin: auto;
+}
+
+.chatpagechats {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.chatinput{
+    position: sticky;
+    bottom: 0;
+    margin:auto;
+}
+
+.chatinput input{ border-radius: 30px;
+    width: max-content;
+    width: 95%;
+    margin:auto;
+    height: 50px;
+    padding: 10px;
+}

@@ -1,0 +1,61 @@
+.DashBoard {
+  min-height: 100vh;
+  max-height: fit-content;
+  background-color: #bef0ff;
+}
+.Spinnner{
+  box-shadow: 0 0 100vmax rgb(85, 37, 37);
+}
+.dashboardBlocks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.greetings {
+  display: flex;
+  margin: 3%;
+  justify-content: space-between;
+}
+.greetingsUser {
+  margin-left: 10%;
+  display: flex;
+  font-size: 30px;
+  background-color: #E2E2E2;
+  padding: 15px 50px 15px 15px;
+  border-radius: 20px;
+  box-shadow: 100px 100px 100px rgba(233, 121, 156, 0);
+}
+.greetingsUser div{
+    margin-left: 15px;
+}
+
+.greetings p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* .greetings div{
+    display: flex;
+    background-color: #ffffff;
+    padding: 1%;
+    border-radius: 10rem;
+    width: 18%;
+}
+
+.greetings div p{
+    font-size:1.2rem;
+    background-color: #ffffff;
+    margin:5%;
+} */
+
+hr {
+  width: 80%;
+  margin: auto;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}

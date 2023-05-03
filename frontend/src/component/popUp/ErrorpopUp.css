@@ -1,0 +1,142 @@
+/* animation */
+
+@keyframes anvil {
+    0% {
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+    }
+    1% {
+      transform: scale(0.96) translate(-50%, -50%);
+      opacity: 0;
+      box-shadow: 0 0 0 rgba(241, 241, 241, 0);
+    }
+    100% {
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 1;
+      box-shadow: 0 0 500px rgba(241, 241, 241, 0);
+    }
+  }
+  .Error_LandingpopUpDiv{
+    -webkit-animation: anvil 0.8s forwards;
+    width: 300px;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    border-radius: 50px;
+  }
+  .Error_iconDiv {
+    background-color: rgb(124, 43, 43);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+  }
+  .Error_assignmentIcon {
+    margin-left: auto;
+    margin-right: auto;
+  
+    color: aliceblue;
+  }
+  .Error_msg_heading{
+    margin-top: 30px ;
+    margin-bottom: 20px;
+    /* color: red; */
+    display: flex;
+  }
+  .Error_assignbutton{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #fa0303;
+    width: 177px;
+    margin: 10px auto;
+    height: 35px;
+    color: white;
+    border-radius: 70px;
+  }
+   .Error_msg{
+    justify-content: center;
+    margin-bottom: 20px;
+    /* color: red; */
+    display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.Positive_LandingpopUpDiv{
+  -webkit-animation: anvil 0.8s forwards;
+  width: 300px;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border: 3px solid rgb(76, 219, 76);
+  /* box-shadow: 10px 10px 10px rgb(76, 219, 76); */
+  border-radius: 50px;
+}
+.Positive_iconDiv {
+  background-color: rgb(76, 219, 76);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  display: flex;
+  align-items: center;
+}
+.Positive_DoneIcon {
+  margin-left: auto;
+  margin-right: auto;
+
+  color: aliceblue;
+}
+.Positive_msg_heading{
+  margin-top: 30px ;
+  margin-bottom: 20px;
+  /* color: red; */
+  display: flex;
+}
+.Positive_assignbutton{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(76, 219, 76);
+  width: 177px;
+  margin: 10px auto;
+  height: 35px;
+  color: white;
+  border-radius: 70px;
+}
+ .Positive_msg{
+  justify-content: center;
+  margin-bottom: 20px;
+  /* color: red; */
+  display: flex;
+}

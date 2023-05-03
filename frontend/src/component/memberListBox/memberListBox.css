@@ -1,0 +1,39 @@
+.memberContainer{
+    min-height: 100vh;
+    width: 100%;
+    background-color:white;
+    box-shadow:  3px 0 10px rgb(0 0 0 / 0.4);
+}
+.memberTitleContainer{
+    height: 80px;
+    align-items: center;
+    display: flex;
+    border-radius:0px 0px 30px 30px;
+    box-shadow:  3px 0 10px rgb(0 0 0 / 0.4);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.memberName{
+    display: flex;
+    margin-left: 20px;
+    align-content: center;
+    height: 30px;
+    flex-wrap: wrap;
+}
+.memberPhoto{
+    background-color: antiquewhite;
+}
+.member{
+    margin-top: 10px;
+    margin-left: 20px;
+     display: flex;height: 30px;
+    flex-direction: row;
+}
+.dividers{
+    border-top:3px solid #E8EDF1;
+    width:90%;
+    margin-top:25px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}

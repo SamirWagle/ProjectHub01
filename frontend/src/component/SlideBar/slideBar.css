@@ -1,0 +1,16 @@
+
+.top_slidebar{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    height: 30px;
+    width: 250px;
+    border-radius: 88px;
+}
+.top_slidebar_content{
+    height: 100%;
+    width: 125px;
+    border-radius: 88px;
+    text-align: center;
+}

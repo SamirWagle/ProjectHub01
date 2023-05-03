@@ -1,0 +1,28 @@
+.resourcepage{
+    background-color: #bef0ff;
+}
+
+.resource_title{
+    display: flex;
+    justify-content: space-between;
+    padding:1em;
+    margin:1em;
+}
+
+#resource_title{
+    margin:1rem;
+}
+
+.resource_listelement{
+    display: flex;
+    justify-content: space-between;
+    padding:1em;
+    margin:1em;
+}
+
+#resource_divider{
+    border:2px solid #000;
+    height:0px;
+    width: 1300px;
+    margin:auto;
+}

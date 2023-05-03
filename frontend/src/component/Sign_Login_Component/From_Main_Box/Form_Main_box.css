@@ -1,0 +1,8 @@
+.Formbox{
+    position: absolute;
+         top: 5%;
+         left:5%;
+         /* height: 75%; */
+         width: 400px;
+         border-radius: 88px;
+ }
